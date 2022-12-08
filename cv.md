@@ -4,7 +4,7 @@
 * Phone: +375 29 817-96-13
 * E-mail: roshhin.02@gmail.com
 * Telegram: @Roshenchik_01
-* GitHub: [Roshenchik](https://github.com/Roshenchik)
+* [GitHub: Roshenchik](https://github.com/Roshenchik)
 ---
 ## About Myself:
 I am 21 years old. I am in my last year at Belarusian State Academy of Aviation. My goal is to learn a demanded and creative profession, so my choice fell on web development. Being able to animate a web page and create its functionality makes me feel excited. Moreover, there are a lot of resources for almost unlimited personal growth and self education in that field. I am ready to work as much as needed to get result. I have good people skills, strong discipline and high stress resistance.
