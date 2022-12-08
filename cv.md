@@ -30,7 +30,7 @@ function isPangram(str){
 ```
 ---
 ## Education:
-* Belarusian State Academy of Aviation\
+* [Belarusian State Academy of Aviation](https://bgaa.by/)
   * *Air traffic controller (in last year)*
 * [Sololearn](https://www.sololearn.com/) (HTML, CSS, JS)
 * [Javascript.ru](https://learn.javascript.ru/) (in process)
