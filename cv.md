@@ -3,8 +3,8 @@
 ## Contact information:
 * Phone: +375 29 817-96-13
 * E-mail: roshhin.02@gmail.com
-* Telegram: @Roshenchik_01
-* [GitHub: Roshenchik](https://github.com/Roshenchik)
+* Telegram: [@Roshenchik_01](https://t.me/Roshenchik_01)
+* GitHub: [Roshenchik](https://github.com/Roshenchik)
 
 ---
 
