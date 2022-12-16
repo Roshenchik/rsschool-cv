@@ -25,9 +25,27 @@ font-weight: bold;
 
 body{
 	font-family: roboto;
+	min-height: 100vh;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
 }
 
-h1{
-	background-color: black;
-	color: green
+.header{
+	border: 1px solid black;
+}
+
+.main{
+	border: 1px solid black;
+}
+
+.footer{
+	border: 1px solid black;
+}
+
+
+.avatar{
+	width: 20px;
 }
