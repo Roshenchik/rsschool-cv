@@ -9,7 +9,7 @@
 ---
 
 ## About Myself:
-I am 21 years old. I am in my last year at Belarusian State Academy of Aviation. My goal is to learn a demanded and creative profession, so my choice fell on web development. Being able to animate a web page and create its functionality makes me feel excited. Moreover, there are a lot of resources for almost unlimited personal growth and self education in that field. I am ready to work as much as needed to get result. I have good people skills, strong discipline and high stress resistance.
+I am 21 years old. I am in my last year at Belarusian State Academy of Aviation. My goal is to learn a demanded and creative profession, so my choice fell on web development. Being able to animate a web page and create its functionality makes me feel excited. Moreover, there are a lot of resources for almost unlimited personal growth and self-education in that field. I am ready to work as much as needed to get result. I have good people skills, strong discipline and high stress resistance.
 
 ---
 
