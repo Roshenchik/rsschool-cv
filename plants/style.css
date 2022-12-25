@@ -154,12 +154,12 @@ body {
 
 .welcome__title{
   margin: 0;
-font-family: 'Inter';
-color: #717171;
-font-size: 45px;
-font-weight: 700;
-line-height: 50px;
-text-align: left;
+  font-family: 'Inter';
+  color: #717171;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
 }
 
 .accent{
@@ -167,12 +167,12 @@ text-align: left;
 }
 
 .welcome__sub-title{
-margin: 0;
-font-family: 'Inter';
-font-size: 20px;
-font-weight: 400;
-line-height: 35px;
-text-align: left;
+  margin: 0;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
 }
 
 .welcome__btn{
@@ -185,6 +185,7 @@ text-align: left;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
+  text-transform: uppercase;
   line-height: 20px;
   text-align: center;
 
@@ -206,3 +207,47 @@ text-align: left;
 }
 
 /* welcome section end */
+
+/* about section start*/
+
+.about {
+  background-color: #FFFFFF;
+}
+
+.about__wrapper {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__intro {
+  width: 605px;
+}
+
+.about__title {
+  margin: 0;
+  margin-bottom: 40px;
+  width: 463px;
+  font-family: 'Inika';
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  text-align: left;
+  color: #E06733;
+}
+
+.about__sub-title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.about__pic {
+  width: 464px;
+  height: 479px;
+}
+/* about section end */
