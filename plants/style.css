@@ -4,8 +4,8 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-       url('/assets/fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('./assets/fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./assets/fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* inika-700 - latin */
 @font-face {
@@ -13,8 +13,8 @@
   font-style: normal;
   font-weight: 700;
   src: local(''),
-       url('/assets/fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/assets/fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('./assets/fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./assets/fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* inter-regular - latin */
 @font-face {
@@ -40,4 +40,83 @@ html {
 }
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  color: #636060;
+  background-color: #FFFFFF;
+}
+
+.header {
+  background-color: #EDF2EC;
+}
+
+.wrapper {
+  max-width: 1222px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 42px;
+  padding-bottom: 42px;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__logo-pic {
+  margin-right: 1.05px;
+}
+
+.header__logo-link{
+  text-decoration: none;
+  font-family: 'Inika', serif;
+  font-size: 16px;
+  color: #000000;
+}
+
+.header__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-self: flex-end;
+  align-items: center;
+}
+
+.header__item {
+  margin-right: 46px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #010201;
+  font-family: 'Inika', serif;
+  font-size: 16px;
+  line-height: 50px;
+  transition: 0.2s;
+}
+
+.header__link:hover {
+  color: #E06733;
+}
+
+.header__link:focus {
+  font-weight: 700;
+  color: #E06733;
 }
