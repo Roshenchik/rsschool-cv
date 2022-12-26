@@ -268,6 +268,7 @@ body {
   display: flex;
   max-width: 1007px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .service__title-nav {
@@ -282,6 +283,11 @@ body {
   text-align: left;
 }
 
+.service__nav {
+  align-self: flex-end;
+  margin-bottom: 15px;
+}
+
 .service__list {
   margin: 0;
   padding: 0;
@@ -291,6 +297,7 @@ body {
 
 .service__item-btn {
   margin-right: 38px;
+  place-self: center;
 }
 
 .service__item-btn:last-child{
@@ -298,7 +305,8 @@ body {
 }
 
 .service__btn {
-  padding: 14px 27px;
+  padding: 12px 40px;
+  min-width: 161px;
   border: 1px solid #E06733;
   background: transparent;
   border-radius: 5px;
@@ -308,11 +316,13 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
-  text-align: left;
+  text-align: center;
 
   cursor: pointer;
   transition: 0.2s;
 }
+
+/*отредачить кнопку*/
 
 .service__btn:hover {
   background-color: #E06733;
@@ -328,7 +338,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* min-height: 955px; */
 }
 
 .service__item {
@@ -337,13 +346,12 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  /* max-width: 329px;
-  max-height: 450px; */
   border: 1px solid #E3E1D5;
   border-radius: 20px 20px 20px 20px;
 }
 
 .service__pic {
+  margin: -1px;
   width: 329px;
   height: 350px;
   margin-bottom: 10px;
