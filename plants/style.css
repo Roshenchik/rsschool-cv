@@ -37,7 +37,9 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -65,6 +67,7 @@ body {
 
 .header__wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-top: 42px;
@@ -123,6 +126,11 @@ body {
   color: #E06733;
 }
 
+.header__link:active {
+  font-weight: 700;
+  color: #E06733;
+}
+
 /* header end */
 /* .main{
   min-height: 100vh;
@@ -137,6 +145,7 @@ body {
   padding-top: 62px;
   padding-bottom: 62px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -147,9 +156,6 @@ body {
 }
 
 .welcome__intro {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
   max-width: 549px;
   height: 340px;
 }
@@ -220,6 +226,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -258,9 +265,14 @@ body {
 /* service section start */
 
 .service{
+  background-color: #EDF2EC;
+}
+
+.service__wrapper {
   padding-top: 40px;
   padding-bottom: 66px;
-  background-color: #EDF2EC;
+  display: flex;
+  flex-direction: column;
 }
 
 .service__content-nav {
@@ -322,14 +334,12 @@ body {
   transition: 0.2s;
 }
 
-/*отредачить кнопку*/
-
 .service__btn:hover {
   background-color: #E06733;
   color: #FFFFFF;
 }
 
-.service__btn:focus {
+.service__btn:active {
   background-color: #bc4614;
   color: #FFFFFF;
 }
@@ -369,9 +379,10 @@ body {
   text-align: center;
 
   cursor: pointer;
+  transition: 0.2s;
 }
 
-  .service__title:hover {    /* добавить ссылки */
+  .service__title:active {          /* добавить ссылки */
   color: #bc4614;
 }
 
@@ -387,3 +398,165 @@ body {
   text-align: center;
 }
 
+/* service section start */
+
+/* prices section start */
+
+.prices {
+  background-color: #FFFFFF;
+}
+
+.prices__wrapper {
+  padding-top: 40px;
+  padding-bottom: 115px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.prices__rates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 391px;
+}
+
+.prices__title {
+  margin: 0;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: #000000;
+}
+
+.prices__accordion {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 34px 41px;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+}
+
+.accordion__btn {                       /* добавить анимацию */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
+  min-height: 50px;
+  min-width: 250px;
+  border-radius: 20px;
+  border: none;
+  background: #EDF2EC;
+
+  cursor: pointer;
+}
+
+.accordion__btn-title {
+  margin: 0;
+  margin-left: 40px;
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+}
+
+ .accordion__btn-arrow {                  /* создать стрелку */
+  margin-right: 40px;
+  transition: 0.5s;
+}
+
+.accordion__btn:focus .accordion__btn-arrow {
+  transform: rotate(180deg);
+}
+
+.prices__accordion-btn:last-of-type {
+  margin-bottom: 0;
+}
+
+.prices__accordion-panel {
+  margin: 0;
+}
+
+.prices__panel-txt {
+  margin: 0;
+}
+
+.prices__prompt {
+  display: flex;
+  flex-direction: column;
+  min-width: 405px;
+  justify-content: flex-start;
+}
+
+.prices__call-us {
+  margin-bottom: 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 191px;
+  width: 452px;
+}
+
+.prices__sub-title {
+  margin: 0;
+  font-family: 'Inter';
+  color: #000000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: right;
+}
+
+.prices__btn {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 162px;
+  border-radius: 5px;
+  border: 1px solid #E06733;
+  background-color: transparent;
+
+  font-family: 'Inika';
+  color: #E06733;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.prices__btn:hover{
+background-color: #E06733;
+color: #FFFFFF;
+}
+
+.prices__btn:active{
+background-color: #bc4614;
+color: #FFFFFF;
+}
+
+.prices__pic {
+  height: 175px;
+  width: 152px;
+  place-self: flex-end;
+  align-self: flex-end;
+}
+
+/* prices section end */
+
+/* contacts section start */
+
+
+
+/* contacts section end */
