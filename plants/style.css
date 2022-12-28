@@ -441,7 +441,7 @@ body {
   border-radius: 20px;
 }
 
-.accordion__btn {                       /* добавить анимацию */
+.prices__accordion-container {                       /* добавить анимацию */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -457,7 +457,11 @@ body {
   cursor: pointer;
 }
 
-.accordion__btn-title {
+.prices__accordion-container:last-of-type {
+  margin-bottom: 0;
+}
+
+.prices__accordion-title {
   margin: 0;
   margin-left: 40px;
   font-family: 'Inter';
@@ -467,17 +471,13 @@ body {
   text-align: left;
 }
 
- .accordion__btn-arrow {                  /* создать стрелку */
+ .prices__accordion-arrow {                  /* создать стрелку */
   margin-right: 40px;
   transition: 0.5s;
 }
 
-.accordion__btn:focus .accordion__btn-arrow {
+.prices__accordion-container:focus .prices__accordion-arrow {
   transform: rotate(180deg);
-}
-
-.prices__accordion-btn:last-of-type {
-  margin-bottom: 0;
 }
 
 .prices__accordion-panel {
@@ -557,6 +557,58 @@ color: #FFFFFF;
 
 /* contacts section start */
 
+.contacts {
+  background-color: #EDF2EC; 
+}
 
+.contacts__wrapper {
+  padding-top: 53px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-start;
+}
+
+.contacts__pic {
+  height: 497px;
+  width: 400px;
+  align-self: flex-end;
+}
+
+.contacts__title {
+  margin: 0;
+  margin-top: 7px;
+  margin-left: 113px;
+  align-self: flex-start;
+
+  font-family: 'Inika';
+  color: #499A18;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+}
+
+.contacts__select {
+  margin: 0;
+  margin-top: 95px;
+  margin-left: 64px;
+  height: 50px;
+  width: 450px;
+  background-color: #D6E7D2;
+  border: none;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  align-self: flex-start;
+
+  font-family: 'Inter';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+select::-ms-expand {
+  display: none;
+}
 
 /* contacts section end */
