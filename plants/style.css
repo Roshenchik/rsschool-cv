@@ -474,6 +474,7 @@ body {
   background: #EDF2EC;
 
   cursor: pointer;
+  transition: 1s;
 }
 
 .prices__accordion-container:last-of-type {
@@ -493,6 +494,10 @@ body {
  .prices__accordion-arrow {
   margin-right: 40px;
   transition: 0.5s;
+}
+
+.prices__accordion-container:focus {
+  background-color: #D6E7D2
 }
 
 .prices__accordion-container:focus .prices__accordion-arrow {
@@ -625,6 +630,7 @@ color: #FFFFFF;
   align-self: flex-start;
 
   cursor: pointer;
+  transition: 1s;
 }
 
 .contacts__select-title {
@@ -642,6 +648,12 @@ color: #FFFFFF;
 .contacts__select-arrow {
   margin-right: 28px;
   transition: 0.5s;
+}
+
+.contacts__select:focus {
+  border: 1px solid #D6E7D2;
+  box-shadow: none;
+  border-color: #C1E698;
 }
 
 .contacts__select:focus .contacts__select-arrow {
