@@ -142,9 +142,11 @@ body {
 }
 
 /* header end */
-/* .main{
+
+.main {
   min-height: 100vh;
-} */
+}
+
 /* welcome section start */
 
 .welcome {
@@ -175,7 +177,7 @@ body {
   margin: 0;
   margin-bottom: 42px;
   max-width: 549px;;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: #717171;
   font-size: 45px;
   font-weight: 700;
@@ -190,7 +192,7 @@ body {
 .welcome__sub-title{
   margin: 0;
   margin-bottom: 48px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 35px;
@@ -205,7 +207,7 @@ body {
   border-radius: 10px;
 
   color: #000000;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
@@ -252,7 +254,7 @@ body {
   margin: 0;
   margin-bottom: 40px;
   max-width: 463px;
-  font-family: 'Inika';
+  font-family: 'Inika', serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 52px;
@@ -302,7 +304,7 @@ body {
   margin: 0;
   padding: 0;
   max-width: 306px;
-  font-family: 'Inika';
+  font-family: 'Inika', serif;
   color: #499A18;
   font-size: 40px;
   font-weight: 400;
@@ -341,7 +343,7 @@ body {
   border-radius: 5px;
 
   color: #E06733;
-  font-family: 'Inika';
+  font-family: 'Inika', serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
@@ -389,7 +391,7 @@ body {
 .service__title {
   margin: 0;
   margin-bottom: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: #E06733;
   font-size: 20px;
   font-weight: 700;
@@ -407,7 +409,7 @@ body {
 .service__sub-title {
   margin: 0;
   margin-bottom: 36px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: #717171;
   font-size: 16px;
   font-weight: 400;
@@ -428,7 +430,6 @@ body {
   padding-top: 40px;
   padding-bottom: 115px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -441,7 +442,7 @@ body {
 
 .prices__title {
   margin: 0;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
@@ -482,7 +483,7 @@ body {
 .prices__accordion-title {
   margin: 0;
   margin-left: 40px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 20px;
@@ -525,7 +526,7 @@ body {
 
 .prices__sub-title {
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: #000000;
   font-size: 40px;
   font-weight: 700;
@@ -542,7 +543,7 @@ body {
   border: 1px solid #E06733;
   background-color: transparent;
 
-  font-family: 'Inika';
+  font-family: 'Inika', serif;
   color: #E06733;
   font-size: 20px;
   font-weight: 700;
@@ -580,35 +581,39 @@ color: #FFFFFF;
 }
 
 .contacts__wrapper {
-  padding-top: 53px;
+  /* padding-top: 53px; */
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.contacts__content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .contacts__pic {
   height: 497px;
   width: 400px;
-  align-self: flex-end;
 }
 
 .contacts__title {
   margin: 0;
-  margin-top: 7px;
-  margin-left: 112px;
-  align-self: flex-start;
+  position: relative;
+  top: 60px;
 
-  font-family: 'Inika';
+  font-family: 'Inika', serif;
   color: #499A18;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  text-align: center;           /* разобраться с центрированием? */
+  text-align: center;
 }
 
 .contacts__select {
   margin: 0;
   margin-top: 95px;
-  margin-left: 69px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -625,7 +630,7 @@ color: #FFFFFF;
 .contacts__select-title {
   margin: 0;
   margin-left: 14px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: #717171;
   font-size: 20px;
   font-weight: 400;
@@ -668,7 +673,7 @@ color: #FFFFFF;
 .copyright__item {
   margin: 0;
   margin-right: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   color: #000000;
   font-size: 20px;
   font-weight: 400;
@@ -688,7 +693,7 @@ color: #FFFFFF;
   margin-left: 19px;
   text-decoration: none;
   color: #000000;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 50px;
