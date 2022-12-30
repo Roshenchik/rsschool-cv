@@ -22,19 +22,19 @@
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a href="#!" class="header__link">Home</a>
+              <a href="#home" class="header__link">Home</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">About us</a>
+              <a href="#about-us" class="header__link">About us</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Service</a>
+              <a href="#service" class="header__link">Service</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Price</a>
+              <a href="#price" class="header__link">Price</a>
             </li>
             <li class="header__item">
-              <a href="#!" class="header__link">Contacts</a>
+              <a href="#contacts" class="header__link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -43,7 +43,7 @@
   </header>
 
   <main class="main">
-    <section class="welcome">
+    <section class="welcome" id="home">
       <div class="wrapper">
         <div class="welcome__wrapper">
           <img src="./assets/img/png/leafs.png" alt="leafs-pic" class="welcome__pic">
@@ -58,7 +58,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about-us">
       <div class="wrapper">
         <div class="about__wrapper">
           <div class="about__intro">
@@ -70,7 +70,7 @@
       </div>
     </section>
 
-    <section class="service">
+    <section class="service" id="service">
       <div class="wrapper">
         <div class="service__wrapper">
           <div class="service__content-nav">
@@ -125,7 +125,7 @@
       </div>
     </section>
 
-    <section class="prices">
+    <section class="prices" id="price">
       <div class="wrapper">
         <div class="prices__wrapper">
           <div class="prices__rates">
@@ -139,14 +139,14 @@
                 <p class="prices__panel-txt"></p>
               </div>
               <button class="prices__accordion-container">
-                <p class="prices__accordion-title">Basics</p>
+                <p class="prices__accordion-title">Standard</p>
                 <img src="./assets/img/svg/accordion_btn.svg" alt="arrow" class="prices__accordion-arrow">
               </button>
               <div class="prices__accordion-panel">
                  <p class="prices__panel-txt"></p>
               </div>
               <button class="prices__accordion-container">
-                <p class="prices__accordion-title">Basics</p>
+                <p class="prices__accordion-title">Pro care</p>
                 <img src="./assets/img/svg/accordion_btn.svg" alt="arrow" class="prices__accordion-arrow">
               </button>
               <div class="prices__accordion-panel">
@@ -159,24 +159,28 @@
               <h3 class="prices__sub-title">Our best <span class="accent">gardeners</span> are ready to help you</h3>
               <button class="prices__btn">Contact us</button>
             </div>
-            <img src=".\assets\img\png\leafs.png" alt="leafs-pic" class="prices__pic">
+            <img src=".\assets\img\png\leafs (1).png" alt="leafs-pic" class="prices__pic">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="wrapper">
         <div class="contacts__wrapper">
           <img src=".\assets\img\png\contact_woman 1.png" alt="woman-pic" class="contacts__pic">
           <h2 class="contacts__title">Contact us</h2>
-          <select id="select" class="contacts__select">
-            <option value="0" class="contacts__item">City</option>
+          <button class="contacts__select">
+            <p class="contacts__select-title">City</p>
+            <img src=".\assets\img\svg\accordion_btn (1).svg" alt="arrow" class="contacts__select-arrow">
+          </button>
+          <!-- <select id="select" class="contacts__select">
+            <option value="" class="contacts__item"></option>
             <option value="1" class="contacts__item">Canandaigua, NY</option>
             <option value="2" class="contacts__item">New York City</option>
             <option value="3" class="contacts__item">Yonkers, NY</option>
             <option value="4" class="contacts__item">Sherrill, NY</option>
-          </select>
+          </select> -->
         </div>
       </div>
     </section>
@@ -187,9 +191,9 @@
       <div class="footer__wrapper">
         <div class="footer__copyright copyright">
           <p class="copyright__item">©</p>
-          <p class="copyright__item">2023</p>
+          <p class="copyright__item">2022</p>
           <a href="https://github.com/Roshenchik" class="copyright__link"> 
-            <p class="copyright__item">Roshenchik</p>
+            <p class="copyright__item">github</p>
           </a>
         </div>
         <a href="https://rs.school/js-stage0/" class="footer__rs-link">Rolling Scopes School</a>
@@ -215,8 +219,6 @@
               </a>
             </li>
           </ul>
-
-        
       </div>
     </div>
   </footer>
