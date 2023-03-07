@@ -73,9 +73,9 @@
 				<pre class="code">
 function isPangram(str){
 	const upCase = str.toUpperCase()
-	const letterOnly = upCase.split('').filter((l) => l >= 'A' && l &lt;= 'Z')
+	const letterOnly = upCase.split('').filter((l) =&gt l &gt= 'A' && l &lt;= 'Z')
 	const setSize = new Set (letterOnly).size
-	return setSize >= 26 ? true : false
+	return setSize &gt= 26 ? true : false
 }</pre>
 			</section>
 
