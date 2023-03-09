@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>cv</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="./assets/img/image.ico">
+</head>
+
+
+<body>
+
+
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<ul class=" nav-list list">
+					<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+					<li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<main class="main">
+		<div class="container main-container">
+
+			<section class="section section-profile" id="profile">
+				<img class="profile-avatar" src="./assets/img/ava.jpg" alt="Avatar">
+				<div class="profile-title">
+					<h1 class="section-title main-title">Aliaksandr Roshchyn</h1>
+					<h3 class="section-title sub-title">Junior front-end developer</h3>
+				</div>
+			</section>
+
+			<section class="section" id="contacts">
+				<h2 class="section-title">Contacts</h2>
+				<ul class="list profile-list">
+					<li class="profile-item">Phone: +375 29 817-96-13</li>
+					<li class="profile-item">E-mail: <a href="mailto:roshhin.02@gmail.com" class="link">roshhin.02@gmail.com</a></li>
+					<li class="profile-item">Telegram: <a href="https://t.me/Roshenchik_01" class="link">@Roshenchik_01</a></li>
+					<li class="profile-item">GitHub: <a href="https://github.com/Roshenchik" class="link">Roshenchik</a></li>
+				</ul>
+			</section>
+
+			<section class="section" id="summary">
+				<h2 class="section-title">About Myself</h2>
+				<p>I am 21 years old. I am in my last year at Belarusian State Academy of Aviation. My goal is to learn a demanded and creative profession, so my choice fell on web development. Being able to animate a web page and create its functionality makes me feel excited. Moreover, there are a lot of resources for almost unlimited personal growth and self-education in that field. I am ready to work as much as needed to get result. I have good people skills, strong discipline and high stress resistance.</p>
+			</section>
+			
+			<section class="section" id="skills">
+				<h2 class="section-title">Skills and Proficiency</h2>
+				<ul class="list skill-list">
+					<li class="skill-item">CSS and HTML (basics)</li>
+					<li class="skill-item">JavaScript (basics)</li>
+					<li class="skill-item">Photoshop (intermediate)</li>
+					<li class="skill-item">Digital drawing</li>
+				</ul>
+			</section>
+
+			<section class="section" id="code">
+				<h2 class="section-title">Code example</h2>
+				<h4 class="code-name">Detect Pangram</h4>
+				<p>A pangram is a sentence that contains every single letter of the alphabet at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" is a pangram, because it uses the letters A-Z at least once (case is irrelevant).
+					<span class="accent">Given a string, detect whether or not it is a pangram. Return True if it is, False if not.</span> Ignore numbers and punctuation.</p>
+				<pre class="code">
+function isPangram(str){
+	const upCase = str.toUpperCase()
+	const letterOnly = upCase.split('').filter((l) => l >= 'A' && l &lt;= 'Z')
+	const setSize = new Set (letterOnly).size
+	return setSize >= 26 ? true : false
+}</pre>
+			</section>
+
+			<section class="section" id="projects">
+				<h2 class="section-title">My projects</h2>
+				<ul class="list project-list">
+					<li class="ptokecy-item"><a href="https://roshenchik.github.io/rsschool-cv/" class="link">CV</a></li>
+				</ul>
+			</section>
+
+			<section class="section" id="education">
+				<h2 class="section-title">Education</h2>
+				<ul class="list education-list">
+					<li class="educatiom-item">
+						<a href="https://bgaa.by/" class="link">Belarusian State Academy of Aviation</a>
+						<ul class="sub-list">
+							<li class="sub-item">Air traffic controller (in last year)</li>
+						</ul>
+					</li>
+					<li class="educatiom-item"><a href="https://www.sololearn.com/" class="link">Sololearn</a> (HTML, CSS, JS)</li>
+					<li class="educatiom-item"><a href="https://learn.javascript.ru/" class="link">Javascript.ru</a> (in process)</li>
+					<li class="educatiom-item"><a href="https://rs.school/" class="link">RS School</a> (Stage 0)</li>
+				</ul>
+			</section>
+
+			<section class="section" id="languages">
+				<h2 class="section-title">Languages</h2>
+				<ul class="list language-list">
+					<li class="language-item">Russian - native speaker</li>
+					<li class="language-item">
+						English
+						<ul class="sub-list">
+							<li class="sub-item">B2 - comprehension, reading (EPAM test)</li>
+							<li class="sub-item">B1 - speech</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			
+		</div>
+	</main>
+
+
+	<footer class="footer">
+		<div class="container footet-container">
+			<div class="copyright">
+				<p class="copyright-year">©2022</p>
+				<p class="copyright-name"><a href="https://github.com/Roshenchik" class="nav-link">Roshenchik</a></p>
+			</div>
+			<a href="https://rs.school/js-stage0/"><img class="rs-school-pic" src="https://rs.school/images/rs_school_js.svg" alt="RS-School"></a>
+		</div>
+	</footer>
+
+
+</body>
+</html>
